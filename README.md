@@ -17,6 +17,7 @@ Sign up for API access at [imgur api registration](http://api.imgur.com/#registe
 
 ### Example
 Get the first image from the pickles query search:
+
     imgurk.img('search', 'pickles', 'my-client-id');
 
 ## Tests
