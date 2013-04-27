@@ -1,4 +1,7 @@
-test:
-	@mocha -R spec -t 5000
+REPORTER = spec
 
-.PHONY : test
+test:
+	@NODE_ENV=test ./node_modules/.bin/mocha \
+	 --reporter $(REPORTER)
+
+ .PHONY: test

@@ -1,21 +1,49 @@
 {
   "name": "imgurk",
   "version": "0.0.0",
-  "description": "A node module that makes using imgur api easier.",
+  "description": "A nodejs module that facilitates simple imgur api access for anonymously grabbing images.",
+  "author": {
+    "name": "Jonathan Pidgeon",
+    "email": "jon@empire5design.com"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "dependencies": {
+    "request": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "should": "latest"
   },
   "repository": {
     "type": "git",
-    "url": "imgurk"
+    "url": "http://github.com/pent/imgurk"
+  },
+  "bugs": {
+    "mail": "jon@empire5design.com",
+    "url": "http://github.com/pent/imgurk/issues"
+  },
+  "directories": {
+    "lib": "./lib"
   },
   "keywords": [
-    "node",
     "imgur",
-    "api",
-    "json"
+    "api"
   ],
-  "author": "Jonathan Pidgeon",
-  "license": "BSD"
+  "tags": [
+    "imgur",
+    "api"
+  ],
+  "private": true,
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/pent/imgurk/raw/master/LICENSE"
+    }
+  ]
 }
