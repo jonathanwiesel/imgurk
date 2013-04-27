@@ -1,0 +1,21 @@
+{
+  "name": "imgurk",
+  "version": "0.0.0",
+  "description": "A node module that makes using imgur api easier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "imgurk"
+  },
+  "keywords": [
+    "node",
+    "imgur",
+    "api",
+    "json"
+  ],
+  "author": "Jonathan Pidgeon",
+  "license": "BSD"
+}
